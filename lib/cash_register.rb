@@ -23,14 +23,14 @@ def add_item(title, price, quantity = 1)
    @items << title
  end 
  @total = (price*quantity)
- last_transactions_amount = @total
+ @last_transactions_amount = @total
  return @total
 end 
 
 def apply_discount 
   @discount > 0 
   @discount = @discount/100.to_f 
-  
+  @total = 
 end 
 
 def items
