@@ -23,7 +23,7 @@ def add_item(title, price, quantity = 1)
  else 
    @items << title
  end 
- @total = (price*quantity)
+ @total += (price*quantity)
  @last_transactions_amount = @total
  return @total
 end 
