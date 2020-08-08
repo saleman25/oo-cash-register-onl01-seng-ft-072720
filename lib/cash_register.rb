@@ -39,6 +39,7 @@ end
 end
  
 def items
+  add_item
 end 
 
 def void_last_transaction
