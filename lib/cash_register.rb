@@ -26,7 +26,7 @@ def add_item(title, price, quantity = 1)
  @last_transactions_amount = @total
  return @total
 end 
-
+end 
 def apply_discount 
   @discount > 0 
   @discount = @discount/100.to_f 
@@ -36,7 +36,7 @@ end
 "There is no discount to apply."
 end
 end
-
+end 
 def items
   
 end 
