@@ -14,8 +14,9 @@ def total
 end 
 
 def add_item(title, price, quantity = 1) 
-   basket = []
-   basket << 
+   if quantity < 0 
+     i += 1 
+     
 end 
 
 def apply_discount 
