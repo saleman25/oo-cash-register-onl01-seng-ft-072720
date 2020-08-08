@@ -29,7 +29,8 @@ end
 
 def apply_discount 
   @discount > 0 
-  @discount = @discount/100.to_f
+  @discount = @discount/100.to_f 
+  
 end 
 
 def items
