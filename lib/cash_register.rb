@@ -28,11 +28,6 @@ def add_item(title, price, quantity = 1)
   @total
 end 
  
- 
-def items
-end 
- 
- 
 def apply_discount 
  if @discount > 0 
   @discount = @discount/100.to_f 
@@ -43,10 +38,11 @@ else
 end
 end
  
-
+def items
+end 
 
 def void_last_transaction
-@total -= @last_transactions_amount
+@total - @last_transactions_amount
 end 
   
   
