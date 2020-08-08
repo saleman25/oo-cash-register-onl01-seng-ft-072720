@@ -19,7 +19,7 @@ def add_item(title, price, quantity = 1)
    i < quantity
    @items << titles
    i += 1 
-   
+   items << title
 end 
 
 def apply_discount 
