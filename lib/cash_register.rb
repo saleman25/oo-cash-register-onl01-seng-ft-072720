@@ -33,7 +33,8 @@ def apply_discount
   @total = @total - @total(@discount)
   "After the discount, the total comes to $#{@total.to_i}."
 end 
-
+"There is no discount to apply."
+end
 
 def items
   
