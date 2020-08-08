@@ -14,6 +14,7 @@ def total
 end 
 
 def add_item(title, price, quantity = 1) 
+   things = []
    
 end 
 
