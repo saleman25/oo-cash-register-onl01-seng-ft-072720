@@ -19,7 +19,7 @@ def add_item(title, price, quantity = 1)
    i < quantity
    @items << title
    i += 1 
- end 
+ else 
    @items << title
  end 
  @total = price*quantity
