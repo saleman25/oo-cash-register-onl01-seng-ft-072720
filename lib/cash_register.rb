@@ -28,8 +28,8 @@ def add_item(title, price, quantity = 1)
 end 
 
 def apply_discount 
-  discount > 0 
-  
+  @discount > 0 
+  @discount = 
 end 
 
 def items
