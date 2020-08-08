@@ -14,8 +14,8 @@ def total
 end 
 
 def add_item(title, price, quantity = 1) 
-   things = []
-   
+   basket = []
+   basket << 
 end 
 
 def apply_discount 
