@@ -35,7 +35,7 @@ def apply_discount
 end 
 "There is no discount to apply."
 end
-
+end
  
 def items
   
@@ -45,5 +45,5 @@ def void_last_transaction
 @total -= @last_transactions_amount
 end 
   
-end  
+  
 end 
