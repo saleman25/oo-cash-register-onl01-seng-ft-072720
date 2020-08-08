@@ -39,11 +39,11 @@ end
 end
  
 def items
-  
+  @items
 end 
 
 def void_last_transaction
-@total -= @last_transactions_amount
+self.total -= self.last_transactions_amount
 end 
   
   
